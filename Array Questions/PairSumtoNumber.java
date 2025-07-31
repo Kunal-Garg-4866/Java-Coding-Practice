@@ -32,6 +32,7 @@ import java.util.Scanner;
         System.out.println("Enter the Target:");
         int x = sc.nextInt();
         System.out.println("Total number of pair are : "+pairsum(arr,x));
+        sc.close();
         
     }
 }
