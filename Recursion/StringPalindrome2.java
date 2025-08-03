@@ -7,6 +7,7 @@ public class StringPalindrome2 {
     System.out.println("Palindrome");
     sc.close();
     //hi
+    //hi
     }
 
     
