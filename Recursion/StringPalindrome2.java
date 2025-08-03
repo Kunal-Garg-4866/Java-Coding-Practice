@@ -6,6 +6,7 @@ public class StringPalindrome2 {
         Scanner sc = new Scanner(System.in);
     System.out.println("Palindrome");
     sc.close();
+    //hi
     }
 
     
