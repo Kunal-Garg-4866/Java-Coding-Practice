@@ -41,5 +41,8 @@ class ReverseDigit
         else{
             System.out.print("Not Equal");
         }
+        sc.close();
+        // final solution 
     }
+
 }
