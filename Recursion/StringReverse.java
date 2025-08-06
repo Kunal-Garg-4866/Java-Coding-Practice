@@ -15,8 +15,7 @@ public class StringReverse {
        Scanner sc = new Scanner(System.in);
        System.out.print("Enter the Character: ");
        String s = sc.nextLine();
-       int idx = 0;
-       System.out.println(Reverse(s,idx));
+       System.out.println(Reverse(s,0));
        sc.close();
     }
     
