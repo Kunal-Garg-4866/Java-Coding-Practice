@@ -2,6 +2,7 @@ package SORTING.Practice;
 import java.util.Scanner;
 
 // Leet code question 283 : Move Zeroes to the end of the array // Done using bubble sort 
+// also we can use two pointer approach to solve this problem in O(n) time complexity
 public class MovesZeroes {
     static void Zeroes(int [] arr){
         int n = arr.length;
