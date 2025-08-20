@@ -16,6 +16,9 @@ public class TwoSwapped {
         int n = arr.length;
         int x = -1;
         int y=-1;
+        if(n<=1){ // corner cases , edge cases by any chance if there is only one element present in array
+            return; 
+        }
 
         //process all adjacent element
         for (int i =1;i<n;i++){
