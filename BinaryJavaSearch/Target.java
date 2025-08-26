@@ -21,6 +21,21 @@ public class Target {
         return false;
 
     }
+     // binary search using recirsion
+     static boolean recBinarySearch(int [] a, int st , int end , int target){
+        if(st>end) return false;
+        int mid = st+(end-st)/2;
+        if(a[mid] == target) return true;
+        else if(target < a[mid]){
+            return recBinarySearch(a,st,mid-1,target);
+            }
+        else{
+            return recBinarySearch(a,mid+1,end,target);
+        }
+
+
+     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size if array:");
@@ -33,6 +48,7 @@ public class Target {
         System.out.print("Enter the target:");
         int target = sc.nextInt();
         System.out.println(BinarySearch(a,target));
+        System.out.println(recBinarySearch(a,0,a.length-1,target));
         sc.close();
 
     
