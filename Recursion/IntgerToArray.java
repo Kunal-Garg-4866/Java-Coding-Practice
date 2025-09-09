@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class IntgerToArray {
      static void displayArr(int [] arr){
+        System.out.print("[ ");
         for(int val: arr){
-            System.out.print(val+" ");
-            
-
+            System.out.print(val+" ");   
         }
+        System.out.println("]");
     }
     public static int count(int n){
         int count = 0;
