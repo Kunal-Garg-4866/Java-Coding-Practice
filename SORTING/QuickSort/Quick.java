@@ -1,4 +1,4 @@
-package SORTING.QuickSort;
+package QuickSort;
 import java.util.Scanner;
 
 public class Quick {
