@@ -37,6 +37,7 @@ public class PrefixSum{
         int[] prefix = makeprefixSum(arr);
 
        printarray(prefix);
+       sc.close();
     }
 }
 

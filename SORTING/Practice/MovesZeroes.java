@@ -1,4 +1,4 @@
-package SORTING.Practice;
+package Practice;
 import java.util.Scanner;
 
 // Leet code question 283 : Move Zeroes to the end of the array // Done using bubble sort 

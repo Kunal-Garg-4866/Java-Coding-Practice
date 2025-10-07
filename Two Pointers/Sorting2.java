@@ -50,6 +50,7 @@ public class Sorting2{
 
         SortZerosAndOne(arr);
         printarray(arr);
+        sc.close();
     }
 }
 

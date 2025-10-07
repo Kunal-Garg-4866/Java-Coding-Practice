@@ -1,4 +1,4 @@
-package SORTING.MergeSort;
+package MergeSort;
 import java.util.Scanner;
 
 

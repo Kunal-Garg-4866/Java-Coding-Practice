@@ -21,5 +21,6 @@ public class CombinationAndPermutation{
 
         System.out.println(ncr);
         System.out.println(npr);
+        sc.close();
     }
 }

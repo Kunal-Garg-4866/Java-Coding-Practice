@@ -1,17 +1,17 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class Power{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int pow = 1;
-        for (int i=1;i<=b;i++){
-            pow = pow * a;
-        }
-        System.out.println(pow);
-    }
-}
+// public class Power{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         int pow = 1;
+//         for (int i=1;i<=b;i++){
+//             pow = pow * a;
+//         }
+//         System.out.println(pow);
+//     }
+// }
 
 
 // something easy with methods 
@@ -25,5 +25,7 @@ public class Power{
         int b = sc.nextInt();
       
         System.out.println(Math.pow(a,b));
+        sc.close();
     }
+
 }

@@ -15,6 +15,7 @@ public class StarTriangleReverse{
             System.out.println();
 
         }
+        sc.close();
     
     }
 }

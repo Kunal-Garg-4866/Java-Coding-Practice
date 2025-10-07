@@ -11,7 +11,8 @@ public class Basics {
         // String s  = sc.next();
         // System.out.println(s);
         String p = sc.nextLine();
-         //System.out.println(p);
+
+         System.out.println(p);
          char ch = str.charAt(3);
          System.out.println(ch);
 

@@ -11,5 +11,6 @@ public class UltaAlphabetTriangle{
             }
             System.out.println();
         }
+        sc.close();
     }
 }

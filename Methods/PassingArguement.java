@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class PassingArguement{
     public static void greet(int x){
@@ -7,6 +7,7 @@ public class PassingArguement{
     }
     public static void main(String[] args) {
         greet(-6);
+    
 
     }
 }

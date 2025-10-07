@@ -18,6 +18,6 @@ public class UltaAphaNumericTriangle{
             System.out.println();
 
         }
-    
+    sc.close();
     }
 }

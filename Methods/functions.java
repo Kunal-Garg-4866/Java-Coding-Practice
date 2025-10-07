@@ -12,7 +12,7 @@ public class functions{
         System.out.println(Math.max(4,8));
         System.out.println(Math.min(4.6,0.6));
         System.out.println(Math.pow(2,3));
-    
+    sc.close();
 
 
     }

@@ -13,6 +13,6 @@ public class StarTrinagle{
             System.out.println();
 
         }
-    
+    sc.close();
     }
 }

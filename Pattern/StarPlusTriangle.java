@@ -14,6 +14,7 @@ public class StarPlusTriangle{
             }
             System.out.println();
         }
+        sc.close();
     
     }
 }

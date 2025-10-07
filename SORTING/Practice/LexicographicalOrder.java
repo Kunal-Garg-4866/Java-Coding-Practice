@@ -1,4 +1,4 @@
-package SORTING.Practice;
+package Practice;
 import java.util.Scanner;
 
 public class LexicographicalOrder {

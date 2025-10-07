@@ -12,6 +12,7 @@ public class StarRectangle{
             }
             System.out.println();
         }
+        sc.close();
     
     }
 } 

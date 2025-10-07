@@ -18,6 +18,6 @@ public class ZeroAndOneTriangle{
             System.out.println();
 
         
-        }
+     sc.close();   }
     }
 }
