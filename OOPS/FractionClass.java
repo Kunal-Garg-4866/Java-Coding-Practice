@@ -16,6 +16,7 @@ public class FractionClass {
     public Fraction(int num , int dem){
         this.num = num;
         this.dem = dem;
+        simplify();
     }
      public  void simplify(){
         // this method will simplify the fraction but not in all cases 
@@ -35,7 +36,7 @@ public class FractionClass {
 }
     public static void main(String[] args) {
          Fraction f1 = new Fraction(35,21);
-         f1.simplify();
+        // f1.simplify();
          System.out.println(f1.num+"/"+f1.dem);
 
         
