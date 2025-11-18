@@ -1,6 +1,14 @@
 package LinkList;
 
 public class Display {
+    // print with function  
+    public static void display(Node head){
+        Node  temp = head;
+        while(temp!= null){
+            System.out.print(temp.data+" ");
+            temp = temp.next;
+        }
+    }
     public static class Node
 {
     int data;
@@ -29,15 +37,16 @@ public class Display {
         // System.out.println(a.next.next.next.next.data);
 
         // better approach using loop
-        Node temp = a;
+        // Node temp = a;
         // for(int i=1;i<=5;i++){
         //     System.out.println(temp.data);
         //     temp = temp.next;
         // } 
-        while(temp != null){
-            System.out.print(temp.data);
-            temp = temp.next;
-        }
+        // while(temp != null){
+        //     System.out.print(temp.data+" ");
+        //     temp = temp.next;
+        // }
+        display(a);
 
         
     }
