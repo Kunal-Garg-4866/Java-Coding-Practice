@@ -1,11 +1,21 @@
 package LinkList;
 
 public class RecursiveDisplay {
-    public  static void display(Node head){
-        if(head==null) return;
-        System.out.print(head.data+" ");
-        display(head.next);
+    // public  static void display(Node head){
+    //     if(head==null) return;
+    //     System.out.print(head.data+" ");
+    //     display(head.next);
+           
 
+
+    // }
+    public  static int length(Node head){
+       int count = 0;
+       while (head!=null){
+        count++;
+        head = head.next;
+       }
+       return count;
     }
 public static class Node{
     int data;
@@ -25,7 +35,8 @@ public static class Node{
         c.next = d; // 5 -> 9 -> 4 -> 6 2
         d.next = e; // 5 -> 9 -> 4 -> 6 -> 2
         e.next = null;
-        display(a); 
+      //  display(a); 
+        System.out.println(length(a));
     }
     
 }
