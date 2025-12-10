@@ -5,5 +5,7 @@ public class Input {
         System.out.print("please enter a number: ");
         int rollno = input.nextInt();
         System.out.println("Your roll number is: " + rollno);
+        input.close();
     }
+        
 }
