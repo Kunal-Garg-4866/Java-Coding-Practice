@@ -16,6 +16,7 @@ public class CheckTriangleSides{
         else{
             System.out.println("Invalid Triangle");
         }
+        input.close();
        
     }
 }

@@ -16,5 +16,6 @@ public class SumAndReverse{
         }
         System.out.println("  reverse of digits is: "+reverse);
         System.out.println("  sum of digits is: "+sum);
+        input.close();
     }
 }

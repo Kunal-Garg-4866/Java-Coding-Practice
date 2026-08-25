@@ -24,5 +24,6 @@ public class FirstRepeater{
             arr[i] = sc.nextInt();
         }
         System.out.println(" First Repeater is: "+ Repeater(arr));
+        sc.close();
     }
 }

@@ -9,6 +9,8 @@ public class Factorial{
         for(int i=n;i>0;i--){
             fact = fact * i;
         }
+     
         System.out.println("Factorial is :" + fact);
+        input.close();
     }
 }

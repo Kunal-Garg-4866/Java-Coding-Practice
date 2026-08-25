@@ -11,5 +11,6 @@ public class ThreeDigitNumber{
         else{
             System.out.println("The number is not a three-digit number.");
         }
+        input.close();
     }
 }

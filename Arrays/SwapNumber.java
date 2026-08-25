@@ -23,6 +23,6 @@ public class SwapNumber{
 
         swap(a,b);
         SwapWithoutTemp(a,b);
- 
+ sc.close();
     }
 }

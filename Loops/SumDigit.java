@@ -13,5 +13,6 @@ public class SumDigit{
 
         }
         System.out.println("Sum of digits is: "+sum);
+        input.close();
     }
 }
